@@ -1,0 +1,18 @@
+{
+  "name": "launch_directive",
+  "version": "0.0.0",
+  "description": "Launch and connect to instances in cloud providers for development",
+  "main": "launch.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js tests/"
+  },
+  "author": "Blixa Morgan <blixa@projectmakeit.com> (MrMakeIt)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.128.0",
+    "github": "^11.0.0"
+  },
+  "devDependencies": {
+    "cucumber": "^3.0.4"
+  }
+}
