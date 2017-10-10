@@ -1,5 +1,9 @@
 #!/bin/env node
-const aws = require('aws-sdk');
-const github = require('github');
+const fs = require('fs');
+let nconf = require('nconf');
+
+nconf.env().argv();
+
+nconf.file(process.env.HOME+'/.launch_deploy/config.json');
 
 

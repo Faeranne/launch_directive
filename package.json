@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.128.0",
-    "github": "^11.0.0"
+    "github": "^11.0.0",
+    "nconf": "^0.8.5"
   },
   "devDependencies": {
     "cucumber": "^3.0.4"
